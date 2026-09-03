@@ -2,16 +2,21 @@
 :root {
   /* Colors - Modern Indigo/Violet Palette */
   --color-primary: #4f46e5;
+  --color-primary-rgb: 79, 70, 229;
   --color-primary-hover: #4338ca;
   --color-primary-light: rgba(79, 70, 229, 0.1);
   --color-primary-lighter: rgba(79, 70, 229, 0.05);
   --color-primary-dark: #3730a3;
   --color-accent: #8b5cf6;
+  --color-accent-rgb: 139, 92, 246;
   --color-accent-light: rgba(139, 92, 246, 0.1);
   --color-secondary: #64748b;
   --color-success: #10b981;
+  --color-success-rgb: 16, 185, 129;
   --color-danger: #ef4444;
+  --color-danger-rgb: 239, 68, 68;
   --color-warning: #f59e0b;
+  --color-warning-rgb: 245, 158, 11;
   --color-info: #06b6d4;
 
   /* Gradient */
@@ -66,16 +71,21 @@
 [data-theme="dark"] {
   /* Colors */
   --color-primary: #818cf8;
+  --color-primary-rgb: 129, 140, 248;
   --color-primary-hover: #6366f1;
   --color-primary-light: rgba(129, 140, 248, 0.15);
   --color-primary-lighter: rgba(129, 140, 248, 0.08);
   --color-primary-dark: #6366f1;
   --color-accent: #a78bfa;
+  --color-accent-rgb: 167, 139, 250;
   --color-accent-light: rgba(167, 139, 250, 0.15);
   --color-secondary: #94a3b8;
   --color-success: #34d399;
+  --color-success-rgb: 52, 229, 153;
   --color-danger: #f87171;
+  --color-danger-rgb: 248, 113, 113;
   --color-warning: #fbbf24;
+  --color-warning-rgb: 251, 191, 36;
   --color-info: #22d3ee;
 
   /* Gradient */
