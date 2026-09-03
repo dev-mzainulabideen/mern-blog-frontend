@@ -65,6 +65,7 @@
 .cta-button {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: var(--spacing-sm);
   padding: 0.75rem 1.25rem;
   background: var(--gradient-primary);
@@ -75,6 +76,11 @@
   font-size: 0.875rem;
   transition: all var(--transition-normal);
   box-shadow: 0 4px 14px rgba(79, 70, 229, 0.3);
+}
+
+.cta-button svg {
+  flex-shrink: 0;
+  transition: transform var(--transition-normal);
 }
 
 .cta-button:hover {
@@ -117,14 +123,20 @@
   color: var(--text-secondary);
   text-decoration: none;
   font-size: 0.9375rem;
-  transition: all var(--transition-fast);
-  display: inline-block;
+  transition: all var(--transition-normal);
+  display: inline-flex;
+  align-items: center;
   padding: var(--spacing-xs) 0;
 }
 
 .footer-links a:hover {
   color: var(--color-primary);
   transform: translateX(4px);
+}
+
+.footer-links a svg {
+  flex-shrink: 0;
+  align-self: center;
 }
 
 /* Contact Info */
@@ -149,34 +161,6 @@
   color: var(--color-primary);
 }
 
-/* Footer Search */
-.footer-search {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-  padding: var(--spacing-sm) var(--spacing-md);
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-}
-
-.footer-search input {
-  flex: 1;
-  border: none;
-  background: none;
-  outline: none;
-  color: var(--text-primary);
-  font-size: 0.875rem;
-}
-
-.footer-search input::placeholder {
-  color: var(--text-muted);
-}
-
-.footer-search svg {
-  color: var(--text-muted);
-}
-
 /* Bottom Bar */
 .footer-bottom {
   display: flex;
@@ -194,6 +178,7 @@
 
 .footer-bottom-links {
   display: flex;
+  align-items: center;
   gap: var(--spacing-lg);
 }
 
@@ -202,10 +187,17 @@
   text-decoration: none;
   font-size: 0.875rem;
   transition: color var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
 }
 
 .footer-bottom-links a:hover {
   color: var(--color-primary);
+}
+
+.footer-bottom-links a svg {
+  flex-shrink: 0;
+  align-self: center;
 }
 
 /* Responsive */

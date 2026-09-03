@@ -36,7 +36,7 @@ class ErrorBoundary extends Component {
               <ArrowLeft size={18} />
               Try Again
             </button>
-            <Link to="/" className="btn" style={{ background: 'var(--admin-primary)' }}>
+            <Link to="/" className="btn btn-primary">
               <Home size={18} />
               Go to Dashboard
             </Link>

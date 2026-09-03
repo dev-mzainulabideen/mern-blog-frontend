@@ -320,3 +320,44 @@ ul, ol {
 .btn-block {
   width: 100%;
 }
+
+/* SVG icon alignment inside buttons and flex containers */
+button svg,
+.btn svg,
+.btn-link svg,
+.nav-link svg,
+.sort-btn svg,
+.category-btn svg,
+.tag-btn svg,
+.cta-button svg,
+.dropdown-item svg,
+.social-link svg {
+  flex-shrink: 0;
+  align-self: center;
+}
+
+/* Focus-visible styles for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,5 +1,4 @@
 import { useLanguage } from '../../context/LanguageContext';
-import './LanguageToggle.css';
 
 function LanguageToggle() {
   const { language, toggleLanguage } = useLanguage();

@@ -15,8 +15,8 @@
   align-items: center;
   gap: 12px;
   padding: 14px 16px;
-  background: var(--admin-card-bg);
-  border: 1px solid var(--admin-border);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: 10px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   animation: toastIn 0.3s ease;
@@ -84,14 +84,14 @@
 .toast-message {
   flex: 1;
   font-size: 0.9rem;
-  color: var(--admin-text);
+  color: var(--text-primary);
 }
 
 .toast-close {
   background: none;
   border: none;
   font-size: 18px;
-  color: var(--admin-text-muted);
+  color: var(--text-muted);
   cursor: pointer;
   padding: 0;
   line-height: 1;
@@ -119,28 +119,28 @@
 }
 
 .breadcrumb-item a {
-  color: var(--admin-text-muted);
+  color: var(--text-muted);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .breadcrumb-item a:hover {
-  color: var(--admin-primary);
+  color: var(--color-primary);
 }
 
 .breadcrumb-item.active {
-  color: var(--admin-text);
+  color: var(--text-primary);
   font-weight: 500;
 }
 
 .breadcrumb-separator {
-  color: var(--admin-text-muted);
+  color: var(--text-muted);
   font-size: 0.75rem;
 }
 
 /* Loading Skeleton */
 .skeleton {
-  background: linear-gradient(90deg, var(--admin-bg) 25%, var(--admin-border) 50%, var(--admin-bg) 75%);
+  background: linear-gradient(90deg, var(--bg-secondary) 25%, var(--border-color) 50%, var(--bg-secondary) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
   border-radius: 6px;
@@ -176,7 +176,7 @@
   align-items: center;
   gap: 16px;
   padding: 16px;
-  border-bottom: 1px solid var(--admin-border);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .skeleton-table-row:last-child {
@@ -208,12 +208,12 @@
 
 .error-boundary h2 {
   font-size: 1.5rem;
-  color: var(--admin-text);
+  color: var(--text-primary);
   margin: 0 0 12px;
 }
 
 .error-boundary p {
-  color: var(--admin-text-muted);
+  color: var(--text-muted);
   margin: 0 0 24px;
   max-width: 400px;
 }
@@ -223,7 +223,7 @@
   align-items: center;
   gap: 8px;
   padding: 12px 24px;
-  background: var(--admin-primary);
+  background: var(--color-primary);
   color: white;
   border: none;
   border-radius: 8px;
@@ -235,7 +235,7 @@
 }
 
 .error-boundary .btn:hover {
-  background: var(--admin-primary-hover);
+  background: var(--color-primary-hover);
 }
 
 /* Page Loading */
@@ -251,8 +251,8 @@
 .page-loading-spinner {
   width: 40px;
   height: 40px;
-  border: 3px solid var(--admin-border);
-  border-top-color: var(--admin-primary);
+  border: 3px solid var(--border-color);
+  border-top-color: var(--color-primary);
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -262,7 +262,7 @@
 }
 
 .page-loading p {
-  color: var(--admin-text-muted);
+  color: var(--text-muted);
   font-size: 0.9rem;
 }
 

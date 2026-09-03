@@ -27,6 +27,8 @@ function Navbar() {
   const [profileOpen, setProfileOpen] = useState(false);
   const profileRef = useRef(null);
 
+const ADMIN_URL = import.meta.env.VITE_ADMIN_URL || 'http://localhost:5175';
+
   const hasRegistered = typeof window !== 'undefined' && localStorage.getItem('registrationEmail');
 
   useEffect(() => {
@@ -38,6 +40,14 @@ function Navbar() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  }, [menuOpen]);
 
   useEffect(() => {
     const handleClickOutside = (e) => {
@@ -143,9 +153,9 @@ function Navbar() {
                         <span className="user-email">{user?.email}</span>
                       </div>
                       <div className="dropdown-divider"></div>
-                      <a 
-                        href="http://localhost:5175" 
-                        className="dropdown-item"
+                        <a
+                          href={ADMIN_URL}
+                          className="dropdown-item"
                         onClick={() => setProfileOpen(false)}
                       >
                         <Shield size={16} />
