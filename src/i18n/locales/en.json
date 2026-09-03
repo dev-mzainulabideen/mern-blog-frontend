@@ -1,0 +1,520 @@
+{
+  "common": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "search": "Search",
+    "loading": "Loading...",
+    "readMore": "Read More",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "view": "View",
+    "noData": "No data available",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "actions": "Actions"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "articles": "Articles",
+    "posts": "Posts",
+    "stories": "Success Stories",
+    "skills": "Skills",
+    "consultancy": "Consultancy",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "admin": "Admin",
+    "actions": "Actions",
+    "joinedDate": "Joined Date",
+    "noData": "No data available"
+  },
+  "home": {
+    "heroTitle": "Learn, Share, Grow Together",
+    "heroTitleAccent": "Your Skills Journey Starts Here",
+    "heroSubtitle": "Connect with professionals, share your expertise, and discover new skills. Our platform matches you with the perfect partners for your learning journey.",
+    "getStarted": "Get Started Free",
+    "exploreSkills": "Explore Skills",
+    "stats": {
+      "users": "Active Users",
+      "skills": "Skills Shared",
+      "stories": "Success Stories"
+    },
+    "features": {
+      "title": "Everything You Need to Succeed",
+      "subtitle": "A complete platform for skill development and community building",
+      "skillMatching": {
+        "title": "Smart Skill Matching",
+        "desc": "Our algorithm connects you with users who have the skills you need and need what you offer."
+      },
+      "anonymous": {
+        "title": "Privacy First",
+        "desc": "Your personal information stays private. Only your nickname and skills are visible to others."
+      },
+      "successStories": {
+        "title": "Success Stories",
+        "desc": "Read inspiring journeys from community members who transformed their careers."
+      },
+      "blog": {
+        "title": "Quality Content",
+        "desc": "Access curated articles, guides, and resources from industry experts."
+      },
+      "moderation": {
+        "title": "Safe Community",
+        "desc": "Active moderation ensures a respectful and supportive environment for everyone."
+      },
+      "fast": {
+        "title": "Lightning Fast",
+        "desc": "Built with modern technology for a seamless and responsive experience."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Start your skill exchange journey in three simple steps",
+      "step1": {
+        "title": "Create Your Profile",
+        "desc": "Sign up and select the skills you have and want to learn."
+      },
+      "step2": {
+        "title": "Get Matched",
+        "desc": "Our system finds the perfect matches based on your skill preferences."
+      },
+      "step3": {
+        "title": "Connect & Learn",
+        "desc": "Start connecting with your matches and grow together."
+      }
+    },
+    "successStories": {
+      "title": "Success Stories",
+      "subtitle": "Real stories from our community members",
+      "viewAll": "View All Stories"
+    },
+    "articles": {
+      "title": "Latest Articles",
+      "subtitle": "Insights and tips from experts",
+      "viewAll": "View All Articles"
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "subtitle": "Join thousands of professionals already learning and growing together.",
+      "button": "Join Now - It's Free"
+    },
+    "viewAllStories": "View All Stories"
+  },
+  "about": {
+    "title": "About the Author",
+    "subtitle": "Meet the creator",
+    "heroTitle": "About Our Platform",
+    "heroSubtitle": "We're on a mission to connect learners and experts, creating a thriving community where skills are shared and careers are transformed.",
+    "story": {
+      "title": "Our Story",
+      "desc": "How we're building the future of skill sharing",
+      "step1": {
+        "title": "Connect",
+        "desc": "Users join our platform to share their expertise and learn from others."
+      },
+      "step2": {
+        "title": "Match",
+        "desc": "Our smart algorithm pairs you with perfect skill partners."
+      },
+      "step3": {
+        "title": "Grow",
+        "desc": "Learn together, share knowledge, and grow your career."
+      }
+    },
+    "features": {
+      "title": "Platform Features",
+      "subtitle": "Everything you need for skill development",
+      "skillMatching": {
+        "title": "Smart Matching",
+        "desc": "Advanced algorithm connects you with users who have the skills you need."
+      },
+      "anonymous": {
+        "title": "Privacy First",
+        "desc": "Your personal info stays private. Only nickname and skills are public."
+      },
+      "successStories": {
+        "title": "Success Stories",
+        "desc": "Read inspiring journeys from community members who transformed their careers."
+      },
+      "blog": {
+        "title": "Quality Content",
+        "desc": "Access curated articles and guides from industry experts."
+      },
+      "moderation": {
+        "title": "Safe Community",
+        "desc": "Active moderation ensures a respectful and supportive environment."
+      }
+    },
+    "why": {
+      "title": "Why Choose Us",
+      "subtitle": "What makes our platform special",
+      "community": {
+        "title": "Global Community",
+        "desc": "Connect with learners and experts from around the world."
+      },
+      "privacy": {
+        "title": "Privacy Protected",
+        "desc": "Your data is safe with us. Complete control over your information."
+      },
+      "learning": {
+        "title": "Learn & Teach",
+        "desc": "Both share knowledge and gain new skills simultaneously."
+      },
+      "growth": {
+        "title": "Career Growth",
+        "desc": "Build your network and accelerate your professional development."
+      }
+    },
+    "mission": "Our Mission",
+    "missionText": "We are dedicated to creating a platform where people can share knowledge, learn new skills, and connect with others who have similar interests.",
+    "vision": "Our Vision",
+    "visionText": "To build a global community of learners and educators where everyone has access to quality education and the opportunity to grow.",
+    "team": "Our Team",
+    "values": "Our Values",
+    "integrity": "Integrity",
+    "collaboration": "Collaboration",
+    "excellence": "Excellence",
+    "contact": "Contact",
+    "experience": "Experience",
+    "education": "Education",
+    "topSkills": "Top Skills",
+    "author": {
+      "title": "Meet the Founder",
+      "subtitle": "The visionary behind the platform",
+      "position": "DPO (IT Applications) at OGDCL",
+      "bio": "IT professional with 25 years of active experience specializing in web development, databases, and IT consulting. Passionate about education and helping others grow."
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey?",
+      "subtitle": "Join thousands of professionals already learning and growing together.",
+      "register": "Get Started",
+      "explore": "Explore Skills"
+    }
+  },
+  "articles": {
+    "title": "Articles",
+    "subtitle": "In-depth educational content",
+    "heroTitle": "Knowledge Hub",
+    "heroSubtitle": "Explore insightful articles, guides, and stories from industry experts and community members.",
+    "readTime": "min read",
+    "allArticles": "All Articles",
+    "featured": "Featured",
+    "latest": "Latest",
+    "searchPlaceholder": "Search articles...",
+    "readMore": "Read More",
+    "noResults": "No articles found matching your criteria.",
+    "popularTags": "Popular Tags",
+    "categories": {
+      "all": "All",
+      "tech": "Tech",
+      "skills": "Skills",
+      "career": "Career",
+      "success": "Success"
+    }
+  },
+  "posts": {
+    "title": "Posts",
+    "subtitle": "Short updates and thoughts",
+    "heroTitle": "Posts",
+    "heroSubtitle": "Short updates, tips, and community announcements to keep you informed and engaged.",
+    "allPosts": "All Posts",
+    "latest": "Latest",
+    "popular": "Popular",
+    "featured": "Featured",
+    "readTime": "min read",
+    "readMore": "Read More",
+    "posts": "posts"
+  },
+  "stories": {
+    "title": "Success Stories",
+    "subtitle": "Inspiring journeys from our community",
+    "heroTitle": "Success Stories",
+    "heroSubtitle": "Real stories of growth, achievement, and transformation from our amazing community members.",
+    "readStory": "Read Story",
+    "allStories": "All Stories",
+    "featured": "Featured",
+    "readTime": "min read",
+    "filterBy": "Filter by:",
+    "noStories": "No stories found for this category.",
+    "filters": {
+      "all": "All",
+      "programming": "Programming",
+      "design": "Design",
+      "marketing": "Marketing",
+      "freelancing": "Freelancing",
+      "career": "Career"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Discover and share skills with others",
+    "heroTitle": "Skills Network",
+    "heroSubtitle": "Connect with people who have the skills you need and need the skills you have.",
+    "privacyNotice": "Your profile is shown anonymously - only nickname and skills are visible to others",
+    "loginRequired": "Please login to select your skills and find matches.",
+    "pendingApproval": "Your account is pending approval. You can select skills but won't appear in matches until approved.",
+    "skillsIOffer": "Skills I Have",
+    "skillsIWant": "Skills I Want to Learn",
+    "selectSkills": "Select Your Skills",
+    "selectSkillsHelp": "Choose skills you have and want to learn for better matching",
+    "skillsIOfferDesc": "Select skills you can teach or share with others",
+    "skillsIWantDesc": "Select skills you want to learn from others",
+    "findMatches": "Find Matches",
+    "myMatches": "My Matches",
+    "suggestedMatches": "Suggested Matches",
+    "basedOnSkills": "Based on your selected skills",
+    "noMatches": "No matches found yet",
+    "matchScore": "Match Score",
+    "category": "Category",
+    "programming": "Programming",
+    "design": "Design",
+    "languages": "Languages",
+    "business": "Business",
+    "marketing": "Marketing",
+    "other": "Other",
+    "bestMatch": "Best Match",
+    "similar": "Similar",
+    "complementary": "Complementary",
+    "offers": "Offers",
+    "wants": "Wants",
+    "viewAllMatches": "View All Matches",
+    "viewProfile": "View Profile",
+    "howMatchingWorks": "How Matching Works",
+    "howMatchingWorksSubtitle": "Find your perfect skill partners in three simple steps",
+    "step1Title": "Select Your Skills",
+    "step1Desc": "Choose skills you have and want to learn",
+    "step2Title": "Get Matched",
+    "step2Desc": "We find users with similar or complementary skills",
+    "step3Title": "Connect & Learn",
+    "step3Desc": "Start connecting and growing together",
+    "successStories": "Success Stories",
+    "successStoriesSubtitle": "Read how skill matching helped others succeed",
+    "all": "All"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us",
+    "heroTitle": "Get In Touch",
+    "heroSubtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "subject": "Subject",
+    "selectSubject": "Select a subject",
+    "subjectGeneral": "General Inquiry",
+    "subjectSupport": "Technical Support",
+    "subjectFeedback": "Feedback",
+    "subjectPartnership": "Partnership",
+    "subjectOther": "Other",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "thankYou": "Thank You!",
+    "successMessage": "Your message has been sent successfully. We'll get back to you soon.",
+    "sendAnother": "Send Another Message",
+    "formTitle": "Send us a message",
+    "formDesc": "Fill out the form below and we'll get back to you within 24 hours.",
+    "getInTouch": "Get in Touch",
+    "infoDesc": "Reach out to us through any of these channels",
+    "location": "Location",
+    "responseTime": "Response Time",
+    "responseTimeValue": "Within 24 hours",
+    "followUs": "Follow Us",
+    "linkedIn": "LinkedIn",
+    "tutorTutees": "TutorTutees"
+  },
+"auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "nickname": "Nickname",
+    "nicknameHelp": "This will be your public display name (not your real name)",
+    "fullName": "Full Name",
+    "fullNameHelp": "Private - only used for account verification",
+    "age": "Age",
+    "ageHelp": "Optional - helps us understand our community",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "loginSuccess": "Login successful!",
+    "registerSuccess": "Registration successful! Please wait for admin approval.",
+    "loginError": "Invalid email or password",
+    "registerError": "Registration failed. Please try again.",
+    "logoutSuccess": "Logged out successfully",
+    "passwordMismatch": "Passwords do not match",
+    "publicProfile": "Public Profile",
+    "privateInfo": "Private Information",
+    "privateNotice": "This information is private and will never be shown publicly",
+    "accountCredentials": "Account Credentials",
+    "continueToSkills": "Continue to Skills",
+    "selectSkills": "Select Your Skills",
+    "skillsSubtitle": "Choose skills you have and want to learn for better matching",
+    "skillsIOffer": "Skills I Have",
+    "skillsIOfferDesc": "Select skills you can teach or share with others",
+    "skillsIWant": "Skills I Want to Learn",
+    "skillsIWantDesc": "Select skills you want to learn from others",
+    "completeRegistration": "Complete Registration",
+    "successStory": "Your Success Story",
+    "successStoryHelp": "Share your skills journey, achievements, experience or goals. This will be visible after admin approval.",
+    "successStoryPlaceholder": "Write about your skills journey, achievements, experience or goals...",
+    "successStoryPrivacy": "Your story will be reviewed by admin before going public",
+    "storyMinLength": "Story must be at least 50 characters",
+    "storyMaxLength": "Story cannot exceed 2000 characters",
+    "storyInvalidContent": "Your story contains inappropriate content. Please revise and try again.",
+    "storySpamContent": "Your story appears to be spam. Please write genuine content.",
+    "loginSubtitle": "Welcome back! Please login to your account.",
+    "forgotPassword": "Forgot password?",
+    "demoCredentials": "Demo Credentials:"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "posts": "Posts",
+    "stories": "Stories",
+    "skills": "Skills",
+    "settings": "Settings",
+    "consultancy": "Consultancy",
+    "analytics": "Analytics",
+    "activityLogs": "Activity Logs",
+    "contactMessages": "Contact Messages",
+    "approve": "Approve",
+    "reject": "Reject",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "totalUsers": "Total Users",
+    "approvedUsers": "Approved Users",
+    "totalPosts": "Total Posts",
+    "totalStories": "Total Stories",
+    "pendingApprovals": "Pending Approvals",
+    "markRead": "Mark as Read",
+    "accessDenied": "Access Denied",
+    "adminOnly": "This area is restricted to administrators only.",
+    "welcome": "Welcome back! Here's what's happening with your platform.",
+    "refresh": "Refresh",
+    "quickActions": "Quick Actions",
+    "reviewUsers": "Review Pending Users",
+    "moderateStories": "Moderate Stories",
+    "managePosts": "Manage Posts",
+    "manageSkills": "Manage Skills",
+    "recentActivity": "Recent Activity",
+    "platformOverview": "Platform Overview",
+    "userGrowth": "User Growth",
+    "contentStatus": "Content Status",
+    "status": "Status",
+    "role": "Role",
+    "active": "Active",
+    "searchUsers": "Search users...",
+    "usersDesc": "Manage and approve user registrations",
+    "storiesDesc": "Moderate user success stories before they go public",
+    "consultancyDesc": "Manage consultancy requests from users",
+    "analyticsDesc": "Platform insights and statistics",
+    "logout": "Logout",
+    "admin": "Administrator"
+  },
+  "footer": {
+    "description": "A platform for learning, sharing, and connecting.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "copyright": "All rights reserved."
+  },
+  "consultancy": {
+    "title": "Consultancy Services",
+    "subtitle": "Expert guidance for your education, career, and life",
+    "heroTitle": "Get Expert Guidance",
+    "heroSubtitle": "Connect with mentors and experts for skill development, career advice, and project help.",
+    "education": "Education",
+    "job": "Job & Career",
+    "life": "Life & Wellness",
+    "bookNow": "Book Now",
+    "bookSession": "Book Session",
+    "sessionType": "Session Type",
+    "videoCall": "Video Call",
+    "phoneCall": "Phone Call",
+    "inPerson": "In Person",
+    "submitBooking": "Submit Booking",
+    "experience": "Experience",
+    "howItWorks": "How It Works",
+    "step1": "Choose a consultant and category",
+    "step2": "Select your preferred session type",
+    "step3": "Fill in your contact details",
+    "step4": "Receive confirmation and connect",
+    "thankYou": "Thank You!",
+    "bookingConfirm": "Your booking request has been submitted. We will contact you soon.",
+    "bookAnother": "Book Another Session",
+    "services": {
+      "title": "Consultancy Services",
+      "subtitle": "Choose the type of guidance you need",
+      "mentoring": {
+        "title": "Skill Mentoring",
+        "desc": "One-on-one guidance to improve your technical skills"
+      },
+      "career": {
+        "title": "Career Guidance",
+        "desc": "Expert advice on career growth and job search"
+      },
+      "project": {
+        "title": "Project Help",
+        "desc": "Get help with your ongoing projects and challenges"
+      },
+      "freelance": {
+        "title": "Freelancing Support",
+        "desc": "Build your freelance career and find clients"
+      }
+    },
+    "availableMentors": "Available Mentors",
+    "mentorsSubtitle": "Find the perfect mentor for your needs",
+    "with": "Book session with",
+    "topic": "What would you like help with?",
+    "selectTopic": "Select a topic",
+    "topicSkill": "Skill Development",
+    "topicCareer": "Career Advice",
+    "topicProject": "Project Help",
+    "topicOther": "Other",
+    "messagePlaceholder": "Describe what you'd like help with...",
+    "trustedBy": "Success Stories",
+    "trustedSubtitle": "See how mentorship has helped others",
+    "howWorks": "How It Works",
+    "howWorksSubtitle": "Get expert help in three simple steps",
+    "step1Title": "Choose a Mentor",
+    "step1Desc": "Browse available mentors and select one that matches your needs",
+    "step2Title": "Book a Session",
+    "step2Desc": "Select your preferred session type and time",
+    "step3Title": "Get Guidance",
+    "step3Desc": "Connect and receive expert guidance for your goals"
+  },
+  "admin": {
+    "accessDenied": "Access Denied",
+    "adminOnly": "This area is restricted to administrators only.",
+    "totalUsers": "Total Users",
+    "approvedUsers": "Approved Users",
+    "pendingApprovals": "Pending Approvals",
+    "totalStories": "Total Stories",
+    "pendingStories": "Pending Stories",
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "posts": "Posts",
+    "stories": "Stories",
+    "skills": "Skills",
+    "settings": "Settings",
+    "consultancy": "Consultancy",
+    "analytics": "Analytics",
+    "activity": "Activity"
+  }
+}
